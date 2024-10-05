@@ -8,14 +8,14 @@ class HistoricalData:
     def __init__(self):
         self.data = []  
 
-    def addReading(self, timestamp, temperature, pressure):
-        self.data.append((timestamp, temperature, pressure))
+    def addReading(self, timestamp, temperature, pressure,humidity):
+        self.data.append((timestamp, temperature, pressure,humidity))
 
     def getHistory(self):
         return self.data
 
 server = Server()
-server.set_endpoint("opc.tcp://localhost:4840")
+server.set_endpoint("opc.tcp://localhost:4841")
 server.set_server_name("Python OPC UA Server")
 namespace = server.register_namespace("http://Leucine.io.server")
 objects = server.get_objects_node()

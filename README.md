@@ -75,4 +75,4 @@ startup.bat
 4. Start the FrontEND application to visualize the data fecting from the OPC SERVER
 5. Stop Server
 
-## For Results Please REFER RESULTS Folder
+## For Results Please REFER RESULTS
