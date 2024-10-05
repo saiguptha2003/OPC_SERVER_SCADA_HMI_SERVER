@@ -1,0 +1,17 @@
+# Node modules
+/scada_frontend/node_modules/
+/scada_frontend/Build
+
+
+
+
+# Python environment
+/OPC_SERVER_SCADA_ENV/
+
+
+# Python cache
+/Backend/__pycache__/
+/Backend/*.pyc
+/Backend/*.pyo
+/Backend/*.pyd
+/Backend/SCADA_OPC.db

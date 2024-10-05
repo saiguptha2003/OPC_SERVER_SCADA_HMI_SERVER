@@ -1,0 +1,5 @@
+opcua
+fastapi[standard]
+unicorn
+SQLAlchemy
+sqlite3
