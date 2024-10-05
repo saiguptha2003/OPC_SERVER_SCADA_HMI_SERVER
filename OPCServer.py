@@ -43,13 +43,16 @@ try:
     while True:
         temperature = random.uniform(10.0, 50.0)
         pressure = random.uniform(1.0, 20.0)
+        humidity= random.uniform(10,100)
         temperatureNode.set_value(temperature)
         pressureNode.set_value(pressure)
+        humidityNode.set_value(humidity)
+        
         
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        historicalData.addReading(timestamp, temperature, pressure)
+        historicalData.addReading(timestamp, temperature, pressure,humidity)
 
-        print(f"Temperature: {temperature} °C, Pressure: {pressure} bar at {timestamp}")
+        print(f"Temperature: {temperature} °C, Pressure: {pressure}, Humidity: {humidity} % bar at {timestamp}")
 
         time.sleep(1)
 

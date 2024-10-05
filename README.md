@@ -74,3 +74,5 @@ startup.bat
 3. Start the FastAPI Server which acts as OPC Client And consumes data 
 4. Start the FrontEND application to visualize the data fecting from the OPC SERVER
 5. Stop Server
+
+## For Results Please REFER RESULTS Folder
